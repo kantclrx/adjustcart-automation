@@ -4,17 +4,16 @@
 
 ### Install dependencies in your local machine
 ```
-cd {this repo}
 npm install
 ```
 
-### Run test with headless Chrome
+### Run test with Chrome headless
 ```
 npm run cypress-run-chrome-headless
 ```
 
-### Incase you want to run test in Docker container
+### In case you want to run test in Docker container
 #### Build image and run test
 ```
-docker build -f Dockerfile -t {tag-image-name} .
+docker build -f Dockerfile -t {tag-image} .
 ```
