@@ -1,0 +1,20 @@
+{
+  "name": "etc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^9.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-open": "cypress open",
+    "cypress-run-chrome-headed": "cypress run -b chrome --headed --no-exit",
+    "cypress-run-chrome-headless": "cypress run -b chrome",
+    "cypress-run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
